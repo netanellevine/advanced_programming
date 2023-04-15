@@ -25,7 +25,7 @@ ____________________________________________________________
 * `!!` - run the last command.
 * `quit` - quit the shell.
 * `Ctrl+C` - pressing **Ctrl+C** will kill the chiled processes and output the message **"You typed Control-C"**.
-* `ls | grep shell | wc` - run the command ls and pipe the output to grep shell and pipe the output to wc (supports many pipes).
+* `ls | grep shell | wc` - run the command ls and pipe the output to grep shell and pipe the output to wc **(supports many pipes)**.
 * `read var` - read a line from the user and store it in the variable var.
 * `if Condition then Command else Command fi` - if the condition is true, run the first command, else run the second command.
 ____________________________________________________________
@@ -35,7 +35,7 @@ ____________________________________________________________
 * `LEFT/RIGHT arrow` - move the cursor in the command line.
 * `LEFT/RIGHT arrow + Delete/key` - change the command itself not only at the end of it.
   __________________________________________________________
- **In addition all the other basic commands of linux shell will work.** 
+### **In addition all the other basic commands of linux shell will work.** 
 
 ## How to run
 1. Clone the repository -
