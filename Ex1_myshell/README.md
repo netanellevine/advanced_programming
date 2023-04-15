@@ -1,13 +1,14 @@
 # Advanced Programming - Ex1
-# ========================
+___
+___
 ## My shell
-**Netanel Levine - 312512619**
+**Netanel Levine - 312512619**  
 **Yanir Cohen - 111111111**
-### Introduction
+## Introduction
 This is a shell that can run commands and pipes. It can also run commands in the background.
 In this exercise we implemented some of the commands that are built in to the linux OS shell.
 ____________________________________________________________
-### Commands implemented
+## Commands implemented
 * `ls` - list directory contents.
 * `ls -l` - list directory contents in long format.
 * `ls -l &` - list directory contents in long format in the background.
@@ -36,13 +37,13 @@ ____________________________________________________________
   __________________________________________________________
  **In addition all the other basic commands of linux shell will work.** 
 
-### How to run
-1. Clone the repository
+## How to run
+1. Clone the repository -
    `git clone https://github.com/netanellevine/advanced_programming && cd advanced_programming/Ex1_myshell`
-2. Compile the code
+2. Compile the code -
    `make` or `make all`
-3. Run the shell/start the program
+3. Run the shell/start the program -
    `./myshell`
 4. Start typing commands and enjoy!
-5. When you are done, quit the shell
+5. When you are done, quit the shell -
    `quit`
