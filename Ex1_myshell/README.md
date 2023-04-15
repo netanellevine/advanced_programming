@@ -14,7 +14,7 @@ ____________________________________________________________
 * `ls -l &` - list directory contents in long format in the background.
 * `ls > filename` - list directory contents and redirect output to file, if exists, overwrite it.
 * `ls 2> noSuchFile` - list directory contents and redirect error to file.
-* `ls >> filename` - list directory contents and append output to file.  ____________________________________________________________
+* `ls >> filename` - list directory contents and append output to file.       ____________________________________________________________
 * `prompt = newPrompt` - change the prompt to newPrompt.
 * `echo hello` - print hello.
 * `echo $?` - print the exit status of the last command.
@@ -26,12 +26,12 @@ ____________________________________________________________
 * `Ctrl+C` - pressing **Ctrl+C** will kill the chiled processes and output the message **"You typed Control-C"**.
 * `ls | grep shell | wc` - run the command ls and pipe the output to grep shell and pipe the output to wc **(supports many pipes)**.
 * `read var` - read a line from the user and store it in the variable var.
-* `if Condition then Command else Command fi` - if the condition is true, run the first command, else run the second command.____________________________________________________________
+* `if Condition then Command else Command fi` - if the condition is true, run the first command, else run the second command.           ____________________________________________________________
 * `UP arrow + Enter` - run the last command.
 * `DOWN arrow + Enter` - run the next command.
 * `play with UP/DOWN arrow` - search for a command in the history.
 * `LEFT/RIGHT arrow` - move the cursor in the command line.
-* `LEFT/RIGHT arrow + Delete/key` - change the command itself not only at the end of it.__________________________________________________________
+* `LEFT/RIGHT arrow + Delete/key` - change the command itself not only at the end of it.           __________________________________________________________
 ### **In addition all the other basic commands of linux shell will work.** 
 
 ## How to run
