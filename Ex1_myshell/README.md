@@ -37,6 +37,9 @@ ____________________________________________________________
   __________________________________________________________
 ### **In addition all the other basic commands of linux shell will work.** 
 
+Pipe only executes execvp commands.
+
+
 ## How to run
 1. Clone the repository
    `git clone https://github.com/netanellevine/advanced_programming && cd advanced_programming/Ex1_myshell`
