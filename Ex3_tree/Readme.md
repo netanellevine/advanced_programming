@@ -67,5 +67,6 @@ There is an option also to give a full path and it will print the tree from that
 ```
 
 Here's an example of the output:
+**The left terminal is our stree and the right terminal is the original tree**
 
 ![Example screenshot](screenshot.png)
