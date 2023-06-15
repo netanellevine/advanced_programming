@@ -29,7 +29,7 @@ git clone https://github.com/netanellevine/advanced_programming.git
 Navigate to the Ex3 directory:
 
 ```bash
-cd advanced_programming/Ex3
+cd advanced_programming/Ex3_tree
 ```
 
 ### Compilation
@@ -51,7 +51,19 @@ make all
 To run the program, you need to pass the directory you want to visualize as an argument. For example, if you want to visualize the current directory, you can run:
 
 ```bash
+./stree
+```
+
+Or
+
+```bash
 ./stree .
+```
+
+There is an option also to give a full path and it will print the tree from that path, you can run:
+
+```bash
+./stree <FULL PATH>
 ```
 
 Here's an example of the output:
