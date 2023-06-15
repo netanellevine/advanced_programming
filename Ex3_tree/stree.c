@@ -7,6 +7,7 @@
 #include <pwd.h>
 #include <grp.h>
 #include <limits.h>
+#include <unistd.h>
 
 #define COLOR_BLUE "\x1b[34m" // Macro for blue color
 #define COLOR_RESET "\x1b[0m" // Macro to reset color
@@ -150,16 +151,35 @@ void printTreeRecursive(const char *path, const char *prefix, const char *name, 
     }
 }
 
+void usage(char *program_name)
+{
+    fprintf(stderr, "Usage: %s <directory>\n", program_name);
+    fprintf(stderr, "Or: %s (to use the current directory as the default)\n", program_name);
+    exit(EXIT_FAILURE);
+}
+
 int main(int argc, char *argv[])
 {
     const char *path;
-    if (argc < 2)
+
+    if (argc == 1)
     {
         path = "."; // Use the current directory if no arguments are provided
     }
-    else
+
+    else if (argc == 2)
     {
         path = argv[1];
+        if (access(path, F_OK) == -1)
+        {
+            perror("Error");
+            return EXIT_FAILURE;
+        }
+    }
+
+    else
+    {
+        usage(argv[0]);
     }
 
     printTreeRecursive(path, "", path, 1);
