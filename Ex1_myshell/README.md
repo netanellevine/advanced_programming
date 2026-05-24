@@ -3,7 +3,7 @@ ___
 ___
 ## My shell
 **Netanel Levine - 312512619**  
-**Yanir Cohen - **
+**Yanir Cohen**
 ## Introduction
 This is a shell that can run commands and pipes, it can also run commands in the background.     
 In this exercise we implemented some of the commands that are built in to the linux OS shell.
